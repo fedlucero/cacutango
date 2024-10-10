@@ -6,8 +6,7 @@
 
 a {
     text-decoration: none; /* Quita el subrayado de todos los enlaces */
-    
-  }
+    }
  a:hover {
     text-decoration: none; /* Asegura que tampoco aparezca al pasar el ratón */
   }
@@ -15,9 +14,11 @@ a {
 body {
     display: flex;
     flex-direction: column;
-   
-    
-    padding-top: 70px; /* Para el espacio del menú fijo */
+    padding-top:70px; /* Para el espacio del menú fijo */
+  }
+
+  .padBody{
+    padding-top:50px
   }
  
   footer {
@@ -106,6 +107,17 @@ body {
 }
 .gallery img:hover {
   transform: scale(1.05); /* Efecto de zoom en hover */
+}
+
+.bgImg{
+  height: 100vh;
+  background-image: url("./img/14.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
  
   

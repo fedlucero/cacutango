@@ -17,28 +17,18 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ms-auto">
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="../index.html" id="inicioDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Inicio</a>
-                <ul class="dropdown-menu" aria-labelledby="inicioDropdown">
-                  <li><a class="dropdown-item" href="../index.html#tango">Tango</a></li>
-                  <li><a class="dropdown-item" href="../index.html#tangoContact">Tango Contact</a></li>
-                  <li><a class="dropdown-item" href="../index.html#special">Special Workshops</a></li>
-                  <li><a class="dropdown-item" href="../index.html#training">Training</a></li>
-                </ul>
-              </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="./giras.html" id="girasDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Giras</a>
-            <ul class="dropdown-menu" aria-labelledby="girasDropdown">
-              <li><a class="dropdown-item" href="./giras.html#proximas">Próximas Giras</a></li>
-              <li><a class="dropdown-item" href="./giras.html#pasadas">Giras Pasadas</a></li>
-            </ul>
+          <li class="nav-item">
+            <a class="nav-link" href="../index.html">Inicio</a>
           </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="./aboutme.html" id="aboutDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">About Me</a>
-            <ul class="dropdown-menu" aria-labelledby="aboutDropdown">
-              <li><a class="dropdown-item" href="./aboutme.html#proximas">About Me</a></li>
-              <li><a class="dropdown-item" href="./aboutme.html#pasadas">CV</a></li>
-            </ul>
+          <li class="nav-item">
+            <a class="nav-link" href="./workshops.html">Workshops</a>
+          </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./giras.html">Giras</a>
+              </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./aboutme.html">About Me</a>
+          </li>
           <li class="nav-item">
             <a class="nav-link" href="./galeria.html">Galería</a>
           </li>
@@ -50,36 +40,58 @@
     </div>
   </nav>
 
+
   <!-- Contenedor del formulario de contacto -->
   <div class="container mt-5">
-    <h2 class="text-center">Contact Me</h2>
-    <form>
+    <div class="d-flex flex-column justify-content-center col-12">
+      <div class="col-12 d-flex justify-content-center">
+        <a  class="text-decoration-none text-black" href="">
+          <div class="d-flex">
+            <img src="https://go-skill-icons.vercel.app/api/icons?i=instagram" alt="instagram">
+            <h2 class="m-3">cacu.lucero</h2>
+          </div>
+        </a>
+    </div>
+    <div class="col-12 d-flex justify-content-center ">
+      <a class="text-decoration-none text-black" href="">
+        <div class="d-flex">
+          <img src="https://go-skill-icons.vercel.app/api/icons?i=facebook" alt="facebook">
+          <h2 class="m-3">Cacu Lucero</h2>
+        </div>
+      </a>
+    </div>
+    <div class="col-12 d-flex justify-content-center ">
+      
+        <h2 class="m-3">+ 54 9 2234365389</h2>
+      
+    </div>
+  </div>
+
+    <form >
       <!-- Campo: Nombre -->
       <div class="mb-3">
-        <label for="name" class="form-label">Nombre</label>
-        <input type="text" class="form-control" id="name" placeholder="Escribe tu nombre" required>
+        <input type="text" class="form-control" id="name" placeholder="Nombre" required>
       </div>
 
       <!-- Campo: Correo Electrónico -->
       <div class="mb-3">
-        <label for="email" class="form-label">Correo Electrónico</label>
-        <input type="email" class="form-control" id="email" placeholder="tucorreo@example.com" required>
+        <input type="email" class="form-control" id="email" placeholder="Correo Electrónico" required>
       </div>
 
       <!-- Campo: Teléfono -->
       <div class="mb-3">
-        <label for="phone" class="form-label">Teléfono</label>
         <input type="tel" class="form-control" id="phone" placeholder="Escribe tu número de teléfono" required>
       </div>
 
       <!-- Campo: Mensaje -->
       <div class="mb-3">
-        <label for="message" class="form-label">Mensaje</label>
-        <textarea class="form-control" id="message" rows="4" placeholder="Escribe tu mensaje aquí" required></textarea>
+        <textarea class="form-control" id="message" rows="4" placeholder="Mensaje" required></textarea>
       </div>
 
       <!-- Botón para enviar -->
-      <button type="submit" class="btn btn-primary">Enviar</button>
+      <div class="d-flex justify-content-center mb-3">
+        <button type="submit" class="btn btn-primary">Enviar</button>
+      </div>
     </form>
   </div>
 
