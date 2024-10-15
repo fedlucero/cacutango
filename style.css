@@ -120,4 +120,25 @@ body {
   align-items: center;
 }
  
+.imgFondo1{
+  background-image: url("./img/caosmos.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 80vh;
+
+}
   
+.imgFondo2{
+  background-image: url("./img/05.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 80vh;
+
+}
+
+@media only screen and (max-width: 701px) {
+  .columnReverse{
+    flex-direction: column-reverse;
+
+  }
+}
